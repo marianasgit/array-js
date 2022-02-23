@@ -1,0 +1,10 @@
+// Maneira imperativa:
+
+valores[] -> for(i=0; i<=4; i++){
+    valores100[] = valores[i] + 100
+}
+
+//Maneira declarativa
+
+mais100 = (valor) => valor + 100
+valores100 = valores.map(mais100)
