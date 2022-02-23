@@ -97,8 +97,7 @@ const somaImpares = valorImpar.reduce(soma, 0)
 /***************************************************************************/
 // PROBLEMA: CALCULAR O VALOR TOTAL, SABENDO QUE CADA VALOR TEVE 20% DE DESCONTO
 
-const valores = numeros.reduce(soma, 0) 
-const desconto = (valores) => valores - (valores * 0,2)
+const valorDescontado = total - (total * 0.2)
 
 //16 104,8 56 223,2 256 656
 
@@ -110,4 +109,4 @@ console.log('valor ao quadrado:', valorQuadrado)
 console.log('valores pares:', valorPar)
 console.log('media total:', mediaTotal)
 console.log('soma impares:', somaImpares)
-console.log('valor descontando 20%:', desconto)
+console.log('valor descontando 20%:', valorDescontado)
